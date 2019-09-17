@@ -10,7 +10,7 @@ jobs:
     steps:
     - uses: actions/checkout@v1
     - name: Install
-      run: apt-get install tree
+      run: sudo apt-get install tree
     - name: Check
       run: |
         ls
